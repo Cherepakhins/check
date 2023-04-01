@@ -1,0 +1,30 @@
+.nav {
+}
+.nav__links {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+.nav-link__item {
+  list-style-type: none;
+
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.nav-link__item:hover {
+  color: #f84802;
+}
+.nav-link__item--active {
+  color: #ff6b2f;
+}
